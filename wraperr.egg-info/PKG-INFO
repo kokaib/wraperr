@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: wraperr
-Version: 1.0.0
+Version: 1.0.1
 Summary: Define exception handling logic via a decorator.
 Author: Bálint Kókai
 Author-email: galsaizoltan1@gmail.com
