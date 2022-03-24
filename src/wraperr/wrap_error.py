@@ -3,7 +3,7 @@ from typing import Any, Callable, Type
 
 
 def wrap_error(
-    error_handler: Callable[[Exception], Any],
+    error_handler: Callable[[BaseException], Any],
     exception_type: Type[BaseException] = Exception
 ):
     def f(wrappee: Callable):
