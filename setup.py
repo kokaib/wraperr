@@ -72,6 +72,7 @@ setup(
     # This should be a valid email address corresponding to the author listed
     # above.
     author_email="galsaizoltan1@gmail.com",
+    package_dir={"": "src"},
     # You can just specify package directories manually here if your project is
     # simple. Or you can use find_packages().
     #
@@ -81,7 +82,7 @@ setup(
     #
     #   py_modules=["my_module"],
     #
-    packages=find_packages(exclude=["contrib", "docs", "tests"]),  # Required
+    packages=["wraperr"],  # Required
     # Specify which Python versions you support. In contrast to the
     # 'Programming Language' classifiers above, 'pip install' will check this
     # and refuse to install the project if the version does not match. If you
