@@ -11,6 +11,9 @@ pylama = "*"
 setuptools = "*"
 twine = "*"
 build = "*"
+sphinx = "*"
+furo = "*"
+myst-parser = "*"
 
 [requires]
 python_version = "3.8"
